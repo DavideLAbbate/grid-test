@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 1em;
+    margin-bottom: 3em;
+    background-color: #fff;
+    text-align: center;
+}
+
+body{
+    background-color:#f5f0e8;
+}
+.container h2{
+    text-align: center;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    border: 2px solid #fff;
+    margin:60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red
+{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
